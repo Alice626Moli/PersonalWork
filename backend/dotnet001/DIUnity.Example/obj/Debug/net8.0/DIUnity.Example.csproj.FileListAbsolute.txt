@@ -1,0 +1,5 @@
+F:\代码练习\后端练习\dotnet001\DIUnity.Example\obj\Debug\net8.0\DIUnity.Example.csproj.AssemblyReference.cache
+F:\代码练习\后端练习\dotnet001\DIUnity.Example\obj\Debug\net8.0\DIUnity.Example.GeneratedMSBuildEditorConfig.editorconfig
+F:\代码练习\后端练习\dotnet001\DIUnity.Example\obj\Debug\net8.0\DIUnity.Example.AssemblyInfoInputs.cache
+F:\代码练习\后端练习\dotnet001\DIUnity.Example\obj\Debug\net8.0\DIUnity.Example.AssemblyInfo.cs
+F:\代码练习\后端练习\dotnet001\DIUnity.Example\obj\Debug\net8.0\DIUnity.Example.csproj.CoreCompileInputs.cache

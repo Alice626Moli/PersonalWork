@@ -1,0 +1,11 @@
+F:\代码练习\后端练习\dotnet001\sharedlib01\bin\Debug\net8.0\sharedlib01.deps.json
+F:\代码练习\后端练习\dotnet001\sharedlib01\bin\Debug\net8.0\sharedlib01.dll
+F:\代码练习\后端练习\dotnet001\sharedlib01\bin\Debug\net8.0\sharedlib01.pdb
+F:\代码练习\后端练习\dotnet001\sharedlib01\obj\Debug\net8.0\sharedlib01.GeneratedMSBuildEditorConfig.editorconfig
+F:\代码练习\后端练习\dotnet001\sharedlib01\obj\Debug\net8.0\sharedlib01.AssemblyInfoInputs.cache
+F:\代码练习\后端练习\dotnet001\sharedlib01\obj\Debug\net8.0\sharedlib01.AssemblyInfo.cs
+F:\代码练习\后端练习\dotnet001\sharedlib01\obj\Debug\net8.0\sharedlib01.csproj.CoreCompileInputs.cache
+F:\代码练习\后端练习\dotnet001\sharedlib01\obj\Debug\net8.0\sharedlib01.dll
+F:\代码练习\后端练习\dotnet001\sharedlib01\obj\Debug\net8.0\refint\sharedlib01.dll
+F:\代码练习\后端练习\dotnet001\sharedlib01\obj\Debug\net8.0\sharedlib01.pdb
+F:\代码练习\后端练习\dotnet001\sharedlib01\obj\Debug\net8.0\ref\sharedlib01.dll

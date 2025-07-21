@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "3MIunpTXNJE=",
+  "success": true,
+  "projectFilePath": "F:\\代码练习\\后端练习\\dotnet001\\FirstProject01\\FirstProject01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\This PC\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512",
+    "C:\\Users\\This PC\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

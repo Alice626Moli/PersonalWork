@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "\u4EFB\u52A1-FirstProject01",
+      "appliesTo": "dotnet001/FirstProject01/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "\u4EFB\u52A1-dotnet001",
+      "appliesTo": "dotnet001/",
+      "type": "launch"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+F:\代码练习\后端练习\dotnet001\Collection-C#\obj\Debug\net8.0\Collection-C#.GeneratedMSBuildEditorConfig.editorconfig
+F:\代码练习\后端练习\dotnet001\Collection-C#\obj\Debug\net8.0\Collection-C#.AssemblyInfoInputs.cache
+F:\代码练习\后端练习\dotnet001\Collection-C#\obj\Debug\net8.0\Collection-C#.AssemblyInfo.cs
+F:\代码练习\后端练习\dotnet001\Collection-C#\obj\Debug\net8.0\Collection-C#.csproj.CoreCompileInputs.cache
+F:\代码练习\后端练习\dotnet001\Collection-C#\bin\Debug\net8.0\Collection-C#.exe
+F:\代码练习\后端练习\dotnet001\Collection-C#\bin\Debug\net8.0\Collection-C#.deps.json
+F:\代码练习\后端练习\dotnet001\Collection-C#\bin\Debug\net8.0\Collection-C#.runtimeconfig.json
+F:\代码练习\后端练习\dotnet001\Collection-C#\bin\Debug\net8.0\Collection-C#.dll
+F:\代码练习\后端练习\dotnet001\Collection-C#\bin\Debug\net8.0\Collection-C#.pdb
+F:\代码练习\后端练习\dotnet001\Collection-C#\obj\Debug\net8.0\Collection-C#.dll
+F:\代码练习\后端练习\dotnet001\Collection-C#\obj\Debug\net8.0\refint\Collection-C#.dll
+F:\代码练习\后端练习\dotnet001\Collection-C#\obj\Debug\net8.0\Collection-C#.pdb
+F:\代码练习\后端练习\dotnet001\Collection-C#\obj\Debug\net8.0\Collection-C#.genruntimeconfig.cache
+F:\代码练习\后端练习\dotnet001\Collection-C#\obj\Debug\net8.0\ref\Collection-C#.dll

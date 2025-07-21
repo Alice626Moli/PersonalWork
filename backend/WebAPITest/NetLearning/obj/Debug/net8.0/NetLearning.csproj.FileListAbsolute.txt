@@ -1,0 +1,14 @@
+C:\Users\jiang\source\repos\WebAPITest\NetLearning\obj\Debug\net8.0\NetLearning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jiang\source\repos\WebAPITest\NetLearning\obj\Debug\net8.0\NetLearning.AssemblyInfoInputs.cache
+C:\Users\jiang\source\repos\WebAPITest\NetLearning\obj\Debug\net8.0\NetLearning.AssemblyInfo.cs
+C:\Users\jiang\source\repos\WebAPITest\NetLearning\obj\Debug\net8.0\NetLearning.csproj.CoreCompileInputs.cache
+C:\Users\jiang\source\repos\WebAPITest\NetLearning\bin\Debug\net8.0\NetLearning.exe
+C:\Users\jiang\source\repos\WebAPITest\NetLearning\bin\Debug\net8.0\NetLearning.deps.json
+C:\Users\jiang\source\repos\WebAPITest\NetLearning\bin\Debug\net8.0\NetLearning.runtimeconfig.json
+C:\Users\jiang\source\repos\WebAPITest\NetLearning\bin\Debug\net8.0\NetLearning.dll
+C:\Users\jiang\source\repos\WebAPITest\NetLearning\bin\Debug\net8.0\NetLearning.pdb
+C:\Users\jiang\source\repos\WebAPITest\NetLearning\obj\Debug\net8.0\NetLearning.dll
+C:\Users\jiang\source\repos\WebAPITest\NetLearning\obj\Debug\net8.0\refint\NetLearning.dll
+C:\Users\jiang\source\repos\WebAPITest\NetLearning\obj\Debug\net8.0\NetLearning.pdb
+C:\Users\jiang\source\repos\WebAPITest\NetLearning\obj\Debug\net8.0\NetLearning.genruntimeconfig.cache
+C:\Users\jiang\source\repos\WebAPITest\NetLearning\obj\Debug\net8.0\ref\NetLearning.dll

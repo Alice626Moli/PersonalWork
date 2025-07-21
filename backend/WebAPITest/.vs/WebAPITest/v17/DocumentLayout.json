@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\\u4EE3\u7801\u7EC3\u4E60\\\u540E\u7AEF\u7EC3\u4E60\\WebAPITest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{839C9236-F82A-4930-8B8E-3FBEEB3FE5BE}|WebAPITest\\WebAPITest.csproj|f:\\\u4EE3\u7801\u7EC3\u4E60\\\u540E\u7AEF\u7EC3\u4E60\\webapitest\\webapitest\\iservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839C9236-F82A-4930-8B8E-3FBEEB3FE5BE}|WebAPITest\\WebAPITest.csproj|solutionrelative:webapitest\\iservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "F:\\\u4EE3\u7801\u7EC3\u4E60\\\u540E\u7AEF\u7EC3\u4E60\\WebAPITest\\WebAPITest\\IService\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "WebAPITest\\IService\\ICategoryService.cs",
+              "ToolTip": "F:\\\u4EE3\u7801\u7EC3\u4E60\\\u540E\u7AEF\u7EC3\u4E60\\WebAPITest\\WebAPITest\\IService\\ICategoryService.cs*",
+              "RelativeToolTip": "WebAPITest\\IService\\ICategoryService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T14:41:45.467Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
