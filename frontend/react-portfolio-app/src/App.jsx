@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.scss";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Container } from "@mui/material";
@@ -7,8 +7,13 @@ import About from "./pages/About";
 import Navbar from "./components/Navbar";
 import Projects from "./pages/Projects";
 import NotFound from "./pages/NotFound";
+import Login from "./pages/Login";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
+
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+
   return (
     //BrowserRouter 要在最外层，包裹整个路由系统，监听url变化渲染不同page
     <Router>
@@ -18,12 +23,22 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
-            <Route path='/Projects' element={<Projects />} />
-            <Route path='*' element={<NotFound/>}/>
-          </Route>
-        </Routes>
-      </Container>
-    </Router>
+          <Route />
+          
+          <Route
+            path='/Projects'
+            element={
+              <ProtectedRoute isAuthenticated={= { isAuthenticated }}>
+                <Projects />
+              </ProtectedRoute>
+            } />
+
+          <Route path='/login' element={<Login onLogin={() => setIsAuthenticated(true)} />} />
+          <Route path='*' element={<NotFound />} />
+        </Route>
+      </Routes>
+    </Container>
+    </Router >
   );
 }
 
