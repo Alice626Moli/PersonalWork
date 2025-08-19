@@ -1,15 +1,47 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+import {Routes, Route, Navigate} from 'react-router-dom'
+
+
+import Login from './routes/Login'
+import Dashboard from './routes/Dashboard'
+import Admin from './routes/Admin'
+import User from './routes/User'
+import ProtectedRoute from './components/ProtectedRoute'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      first time push to set link
-    </>
+    <Routes>
+
+<Route path ='/' element = {<Navigate to= '/dashboard' />} />
+
+
+<Route path = '/login' element={<Login/>} />
+
+<Route path = '/dashboard' 
+element={
+
+<ProtectedRoute>
+<Dashboard/>
+
+</ProtectedRoute>
+
+
+
+} /> 
+<Route path = '/user' element={<User/>} />
+<Route path = '/admin' element={<Admin/>} />
+
+<Route path= '*' element={<Navigate to= '/dashboard' replace />}/>
+
+
+{/* 这里 to = '/dashboard' 意思是navigate然后替换路径为/dashboard */}
+
+
+
+    </Routes>
   )
 }
 
