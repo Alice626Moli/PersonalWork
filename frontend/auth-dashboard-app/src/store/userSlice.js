@@ -1,53 +1,23 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-import {createSlice} from '@reduxjs/toolkit'
-
-
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-    role:null //user or admin
-
-}
+  role: null, //user or admin
+};
 
 export const userSlice = createSlice({
+  name: "user",
+  initialState,
+  reducers: {
+    setRole: (state, action) => {
+      state.role = action.payload;
+    },
 
-    name:'user',
-    initialState,
-    reducers:{
-        setRole:(state, action)=>{
-            state.role = action.payload;
-        },
+    clearRole: (state) => {
+      state.role = null;
+    },
+  },
+});
 
-        clearRole:(state)=>{
-            state.role = null;
-        }
-    }
-     
-})
-
-export const{setRole, clearRole}= userSlice.actions;
+export const { setRole, clearRole } = userSlice.actions;
 
 export default userSlice.reducer;
