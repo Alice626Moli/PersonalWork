@@ -16,25 +16,20 @@ const TaskList = () => {
     return true;
   })
 
+  return (
     <TaskListWrapper>
-    
-    {filtered.map(task=>(
-
-      <TaskItem
-      key = {task.id}
-      $done = {task.done}
-      onClick ={()=>dispatch(toggleDone(task.id))}
-      >
-
-      </TaskItem>
-
-
-
-    ))}
-
-    
-    </askListWrapper>
-  )
+      {filtered.map(task => (
+        <TaskItem
+          key={task.id}
+          $done={task.done}
+          onClick={() => dispatch(toggleDone(task.id))}
+          data-testid='task-item'
+        >
+          {task.text}
+        </TaskItem>
+      ))}
+    </TaskListWrapper>
+  );
 }
 
 export default TaskList

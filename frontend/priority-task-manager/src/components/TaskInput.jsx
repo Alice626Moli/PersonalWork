@@ -22,6 +22,7 @@ const TaskInput = () => {
 
     <InputArea>
       <Input
+      data-testid='task-input'
         value={text}
         placeholder='Enter task...'
         onChange={e => setText(e.target.value)}
@@ -33,6 +34,7 @@ const TaskInput = () => {
 
         value={done ? 'Done' : 'Not Done'}
         onChange={e => setDone(e.target.value === 'Done')}
+        data-testid = 'status-select'
       >
 
         <option value="Not Done">Not Done</option>
