@@ -85,3 +85,11 @@ This template comes with [Tailwind CSS](https://tailwindcss.com/) already config
 ---
 
 Built with ❤️ using React Router.
+
+Plugins
+
+"react-toastify": "^11.0.5", //https://www.npmjs.com/package/react-toastify, show error message
+"date-fns": "^4.1.0", // https://date-fns.org/, time formatting
+react-icons: as said
+weather-icons-react: as said
+axios: https://www.npmjs.com/package/axios, for send api request

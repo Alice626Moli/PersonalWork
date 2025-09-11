@@ -1,3 +1,4 @@
+import { ToastContainer } from "react-toastify";
 import type { Route } from "./+types/home";
 import { WeatherHome } from "~/components/weatherHome/weatherHome";
 
@@ -9,5 +10,10 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <WeatherHome />;
+  return (
+    <>
+      <WeatherHome />
+      <ToastContainer />
+    </>
+  );
 }
