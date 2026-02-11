@@ -1,29 +1,24 @@
-# dependencies
-node_modules/
-
-# production build
-dist/
-
-# logs
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-*.log
+lerna-debug.log*
 
-# editor directories and files
-.vscode/
-.idea/
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-*.swp
-*.swo
-
-# local env files
-.env
-.env.local
-.env.*.local
-
-# lock files (根据需要，可以保留其中一个)
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

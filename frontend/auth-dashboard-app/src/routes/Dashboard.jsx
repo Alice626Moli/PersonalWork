@@ -1,17 +1,19 @@
-import React, { useState, useEffect } from "react";
-import styled from "styled-components";
-import { Link } from "react-router-dom";
-import { fetchUserActivities } from "../utils/mockApi";
-import { useAuth } from "../context/AuthContext";
-import { useSelector } from "react-redux";
+import React, { useState, useEffect } from 'react'
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+import { fetchUserActivities } from '../utils/mockApi';
+import { useAuth } from '../context/AuthContext';
+import { useSelector } from 'react-redux';
 
+
+//#region 
 const Container = styled.div`
   max-width: 800px;
   margin: 60px auto;
   padding: 32px;
   background: #fff;
   border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 `;
 
 const NavLinks = styled.div`
@@ -72,7 +74,7 @@ const InfoRow = styled.div`
 
 const Label = styled.p`
   font-weight: bold;
-  width: 120px;
+  width: 120px; 
   margin: 0;
 `;
 
@@ -89,7 +91,7 @@ const ActivityLabel = styled.p`
 
 const ActivityList = styled.ul`
   list-style: none;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 20px; 
   margin: 0;
 `;
 
@@ -104,97 +106,148 @@ const ActivityItem = styled.li`
 const Loading = styled.p`
   color: #888;
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 20px; 
 `;
 
+//#endregion
+
+
 const Dashboard = () => {
-  const{user,logout} = useAuth();
-  const role = useSelector((state) => state.userRole.role);
-  const [loading, setLoading] = useState(true);
-const [activities, setActivities] =useState([]);
+
+
+  const { user, logout } = useAuth()
+
+  const role = useSelector(state => state.userRole.role)
   const handleLogout = () => {
 
-    logout();
+    logout()
 
 
-  };
+
+  }
+
+
+  const [loading, isLoading] = useState(true);
+
+  const [activities, setActivities] = useState([]);
+
 
 
   useEffect(()=>{
-    const fetchDate =async()=> {
-      const result = await fetchUserActivities();
-      setActivities(result);
-      setLoading(false)
 
-    }
-    fetchDate()  //这里要call一下这个函数
-  },[])
+const fetchData = async ()=>{
+
+  const result = await fetchUserActivities()
+setActivities(result)
+setLoading (false)
+}
+
+fetchData()
+
+  },)
   return (
-    <Container>
-      <Header>
-        <Title>Welcome to your Dashboard</Title>
 
-        <LogoutButton onClick={handleLogout}></LogoutButton>
+    <Container>
+
+      <Header>
+
+
+        <Title>
+
+          Welcome to your Dashboard
+
+
+
+        </Title>
+
+
+
+        <LogoutButton onClick={handleLogout}>
+
+          Logout
+
+
+        </LogoutButton>
+
       </Header>
 
-      <NavLinks>
-        <NavLinkButton to="/user">User Page</NavLinkButton>
 
-        {role === "admin" && (
-          <NavLinkButton to="/admin">Admin Page</NavLinkButton>
-        )}
+      <NavLinks>
+
+        <NavLinkButton to='/user'>  User Page  </NavLinkButton>
+
+        {role === 'admin' && <NavLinkButton to='/admin'>   Admin Page  </NavLinkButton>}
+
+
+
       </NavLinks>
 
-<InfoCard>
-  <InfoRow>
-    <Label>
-      Username:
+      <InfoCard>
 
-    </Label>
-  
-  <Value>
 
-    {user?.username}
+        <InfoRow>
 
-  </Value>
-  </InfoRow>
 
-<InfoRow>
+          <Label> Username: </Label>
 
-<Label>
-Role:
-</Label>
+          <Value>  {user?.username}  </Value>
 
-<Value>
-{role}
-
-</Value>
-
-</InfoRow>
+        </InfoRow>
 
 
 
-</InfoCard>
 
-<ActivityLabel>
-  Recent Activities
-</ActivityLabel>
 
-{loading ? <Loading>
-Loading activities
 
-</Loading>
-:
-<ActivityList>
-  {activities.map((item, i)=>{
-    <ActivityItem key={`${i}-${item}`}> {item}</ActivityItem>
-  })}
-</ActivityList>
-}
+        <InfoRow>
+
+
+          <Label> Role: </Label>
+
+          <Value>  {role}  </Value>
+
+        </InfoRow>
+
+      </InfoCard>
+
+
+
+
+      <ActivityLabel>
+
+        Recent Activities
+
+      </ActivityLabel>
+
+      {loading ?
+        <Loading>
+          Loading Activities.....
+        </Loading>}
+
+      :<ActivityList>
+
+
+
+        {activities.map((item, i) => {
+
+
+          <ActivityItem key={`${i}-{item}`}>
+
+            {item}
+
+          </ActivityItem>
+
+        })}
+
+      </ActivityList>
+
+
+
+
 
 
     </Container>
-  );
-};
+  )
+}
 
-export default Dashboard;
+export default Dashboard
